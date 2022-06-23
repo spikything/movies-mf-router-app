@@ -1,11 +1,9 @@
 import React from 'react';
-import { Button } from 'ui';
+import { AppShell } from 'ui';
 
 function App() {
   return (
-    <div>
-      <Button />
-    </div>
+    <AppShell />
   );
 }
 
