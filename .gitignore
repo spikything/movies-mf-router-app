@@ -16,6 +16,7 @@ build
 # misc
 .DS_Store
 *.pem
+dist
 
 # debug
 npm-debug.log*
@@ -31,4 +32,3 @@ yarn-error.log*
 
 # turbo
 .turbo
-/packages/ui/dist
