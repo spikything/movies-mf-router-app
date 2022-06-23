@@ -11,11 +11,19 @@ function App() {
           path: '/',
           element: () => <div>Home</div>,
         },
+        {
+          path: '/playlist',
+          element: () => <div>Playlist</div>,
+        },
       ]}
       navLinks={[
         {
           label: 'Home',
           path: '/',
+        },
+        {
+          label: 'Playlist',
+          path: '/playlist',
         },
       ]}
     />
