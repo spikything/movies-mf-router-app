@@ -23,6 +23,7 @@ importers:
       '@types/node': ^16.11.41
       '@types/react': ^18.0.14
       '@types/react-dom': ^18.0.5
+      card: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
       react-scripts: 5.0.1
@@ -40,6 +41,7 @@ importers:
       '@types/node': 16.11.41
       '@types/react': 18.0.14
       '@types/react-dom': 18.0.5
+      card: link:../../packages/card
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-scripts: 5.0.1_qtbnez4q7bzoc4eqybg3efzzxe
@@ -47,6 +49,31 @@ importers:
       typescript: 4.7.4
       ui: link:../../packages/ui
       web-vitals: 2.1.4
+
+  packages/card:
+    specifiers:
+      '@mantine/core': ^4.2.10
+      '@mantine/hooks': ^4.2.10
+      '@types/react': ^18.0.14
+      '@types/react-dom': ^18.0.5
+      eslint: ^7.32.0
+      eslint-config-custom: workspace:*
+      react: ^18.2.0
+      store: workspace:*
+      tsconfig: workspace:*
+      typescript: ^4.5.2
+    dependencies:
+      '@mantine/core': 4.2.10_iivwhiagdfm6yjlc2fb74mg6pu
+      '@mantine/hooks': 4.2.10_react@18.2.0
+    devDependencies:
+      '@types/react': 18.0.14
+      '@types/react-dom': 18.0.5
+      eslint: 7.32.0
+      eslint-config-custom: link:../eslint-config-custom
+      react: 18.2.0
+      store: link:../store
+      tsconfig: link:../tsconfig
+      typescript: 4.7.4
 
   packages/eslint-config-custom:
     specifiers:
