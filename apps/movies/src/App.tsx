@@ -3,7 +3,7 @@ import { AppShell } from 'ui';
 
 function App() {
   return (
-    <AppShell />
+    <AppShell title='Movies' colorScheme='dark' />
   );
 }
 
