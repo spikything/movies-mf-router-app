@@ -62,6 +62,7 @@ importers:
       '@types/react': ^18.0.14
       '@types/react-dom': ^18.0.5
       card: workspace:*
+      cross-env: ^7.0.3
       react: ^18.2.0
       react-dom: ^18.2.0
       react-scripts: 5.0.1
@@ -87,6 +88,8 @@ importers:
       typescript: 4.7.4
       ui: link:../../packages/ui
       web-vitals: 2.1.4
+    devDependencies:
+      cross-env: 7.0.3
 
   packages/card:
     specifiers:
@@ -4130,6 +4133,14 @@ packages:
       path-type: 4.0.0
       yaml: 1.10.2
     dev: false
+
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+    dev: true
 
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
