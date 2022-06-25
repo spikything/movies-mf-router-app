@@ -24,6 +24,7 @@ importers:
       '@types/react': ^18.0.14
       '@types/react-dom': ^18.0.5
       card: workspace:*
+      movies-content: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
       react-scripts: 5.0.1
@@ -42,6 +43,7 @@ importers:
       '@types/react': 18.0.14
       '@types/react-dom': 18.0.5
       card: link:../../packages/card
+      movies-content: link:../../packages/movies-content
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-scripts: 5.0.1_qtbnez4q7bzoc4eqybg3efzzxe
@@ -63,9 +65,11 @@ importers:
       '@types/react-dom': ^18.0.5
       card: workspace:*
       cross-env: ^7.0.3
+      movies-content: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
       react-scripts: 5.0.1
+      store: workspace:*
       tsconfig: workspace:*
       typescript: ^4.7.4
       ui: workspace:*
@@ -81,9 +85,11 @@ importers:
       '@types/react': 18.0.14
       '@types/react-dom': 18.0.5
       card: link:../../packages/card
+      movies-content: link:../../packages/movies-content
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-scripts: 5.0.1_qtbnez4q7bzoc4eqybg3efzzxe
+      store: link:../../packages/store
       tsconfig: link:../../packages/tsconfig
       typescript: 4.7.4
       ui: link:../../packages/ui
@@ -125,6 +131,33 @@ importers:
       eslint-config-next: 12.1.6
       eslint-config-prettier: 8.5.0
       eslint-plugin-react: 7.28.0
+
+  packages/movies-content:
+    specifiers:
+      '@mantine/core': ^4.2.10
+      '@mantine/hooks': ^4.2.10
+      '@types/react': ^18.0.14
+      '@types/react-dom': ^18.0.5
+      eslint: ^7.32.0
+      eslint-config-custom: workspace:*
+      react: ^18.2.0
+      react-router-dom: ^6.3.0
+      store: workspace:*
+      tsconfig: workspace:*
+      typescript: ^4.5.2
+    dependencies:
+      '@mantine/core': 4.2.10_iivwhiagdfm6yjlc2fb74mg6pu
+      '@mantine/hooks': 4.2.10_react@18.2.0
+      react-router-dom: 6.3.0_react@18.2.0
+    devDependencies:
+      '@types/react': 18.0.14
+      '@types/react-dom': 18.0.5
+      eslint: 7.32.0
+      eslint-config-custom: link:../eslint-config-custom
+      react: 18.2.0
+      store: link:../store
+      tsconfig: link:../tsconfig
+      typescript: 4.7.4
 
   packages/store:
     specifiers:
