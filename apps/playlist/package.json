@@ -18,16 +18,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "store": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^4.7.4",
-    "store": "workspace:*",
     "ui": "workspace:*",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "cross-env PORT=3001 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "dev": "cross-env PORT=3001 craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^6.4.3",
     "cross-env": "^7.0.3"
   }
 }
